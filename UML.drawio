@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" modified="2024-03-17T08:33:33.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="cw8E3AXqiAZ3mgXFGiPR" version="24.0.7" type="device">
+  <diagram id="3Su8QsafSEevPz29rNBt" name="Страница — 1">
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-1" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;AddressBook&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-2" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - data:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dict&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; - notes_manager:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Calibri, sans-serif; font-size: 11pt; background-color: initial;&quot;&gt;NoteManager&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + add_record(record: Record) :None&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + add_note(text: str) :&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;print_notes() : None&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + find(name: str) : str&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + delete(name: str) : None&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;+update_contact_name(old_name: str, new_name:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;str, notes_manager: NoteManager) : None&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + search_contact() : None&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; + search(query: str) : (list, list)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; - __iter__() : AddressBookIterator&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-4" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Record&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-6" value="&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp; &amp;nbsp; + add_phone(phone:str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;+ add_email(email: str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + edit_phone(old_phone: str = None, new_phone: str = None) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;+ edit_email(new_email: str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + remove_phone(number:str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + find_phone(number: str) : str&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + set_birthday(birthday:str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + set_address(address:str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + days_to_birthday() : int&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; + __str__() : str&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="820" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-7" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-ansi-language:EN-US&quot; lang=&quot;EN-US&quot;&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;- name: Name&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-ansi-language:EN-US&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp; &amp;nbsp; - phones: list&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- email: Email&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-ansi-language:EN-US&quot; lang=&quot;EN-US&quot;&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;- birthday:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Birthday&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;mso-ansi-language:EN-US&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp; &amp;nbsp; - address:&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Address&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- notes: list&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-3" target="-mdYMt_Uhnn_ifNSvovQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="650" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-10" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Field&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1169" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-11" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp; &amp;nbsp;-&amp;nbsp; value: str&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1229" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-12" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp; +&amp;nbsp; __str__() : str&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1289" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-6" target="-mdYMt_Uhnn_ifNSvovQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1250" as="sourcePoint" />
+            <mxPoint x="440" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-14" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-15" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Phone&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-16" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Email&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-14" target="-mdYMt_Uhnn_ifNSvovQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="-mdYMt_Uhnn_ifNSvovQ-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-12" target="-mdYMt_Uhnn_ifNSvovQ-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="1350" as="sourcePoint" />
+            <mxPoint x="440" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.564;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-12" target="-mdYMt_Uhnn_ifNSvovQ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1550" as="sourcePoint" />
+            <mxPoint x="440" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-21" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;Notes&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1570" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-22" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; - text:str&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp; - author: str&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: Calibri, sans-serif; font-size: 11pt; background-color: initial;&quot;&gt;&amp;nbsp; - tags: list&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1630" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;+ __str__() : str&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1710" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-31" target="-mdYMt_Uhnn_ifNSvovQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1650" as="sourcePoint" />
+            <mxPoint x="440" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-15" target="-mdYMt_Uhnn_ifNSvovQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1650" as="sourcePoint" />
+            <mxPoint x="440" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.605;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-33" target="-mdYMt_Uhnn_ifNSvovQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1650" as="sourcePoint" />
+            <mxPoint x="440" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-27" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&lt;b&gt;NoteManager&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1840" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-28" value="&lt;span style=&quot;font-size:11.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Calibri&amp;quot;,sans-serif;mso-ascii-theme-font:minor-latin;&lt;br/&gt;mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:&lt;br/&gt;minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-theme-font:minor-bidi;&lt;br/&gt;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp; - notes: list&amp;nbsp; &amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-29" value="&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp; + add_note_with_tags(author: str, text: str,tags: list) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ print_notes() : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ save_notes(filename:str) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ load_notes(filename:str) : list&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ edit_note(index: int, new_text: str = None,new_tags: list = None) :None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ delete_note(index: int) : None&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot; class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&amp;nbsp;+ update_notes_author(old_author: str,new_author: str, filename: str) : None&amp;nbsp;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1960" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-23" target="-mdYMt_Uhnn_ifNSvovQ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1850" as="sourcePoint" />
+            <mxPoint x="440" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mdYMt_Uhnn_ifNSvovQ-32" target="-mdYMt_Uhnn_ifNSvovQ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-mdYMt_Uhnn_ifNSvovQ-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
